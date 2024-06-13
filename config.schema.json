@@ -1,5 +1,5 @@
 {
-  "pluginAlias": "ExampleHomebridgePlugin",
+  "pluginAlias": "AmberElectricityPriceHomebridgePlugin",
   "pluginType": "platform",
   "singular": true,
   "schema": {
@@ -9,7 +9,26 @@
         "title": "Name",
         "type": "string",
         "required": true,
-        "default": "Example Dynamic Platform"
+        "default": "Amber Electricity Price"
+      },
+      "refreshInterval": {
+        "title": "Refresh Interval",
+        "type": "integer",
+        "required": true,
+        "default": 5,
+        "description": "Specifies the number of minutes between Amber polls and updates. Default is 5."
+      },
+      "apiKey": {
+        "title": "API Key",
+        "type": "string",
+        "required": true,
+        "description": "Amber API Key"
+      },
+      "siteId": {
+        "title": "Site ID",
+        "type": "string",
+        "required": true,
+        "description": "Amber Site ID"
       }
     }
   }

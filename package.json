@@ -1,17 +1,16 @@
 {
-  "private": true,
-  "displayName": "Plugin Name",
-  "name": "homebridge-plugin-name",
-  "version": "1.0.0",
-  "description": "A short description about what your plugin does.",
+  "displayName": "Amber Electricity Price Homebridge Plugin",
+  "name": "@robertjajajja/homebridge-amber-eletricity-price",
+  "version": "1.0.2",
+  "description": "A homebridge plugin to poll electricity price Australian energy provider Amber at an interval",
   "license": "Apache-2.0",
   "type": "module",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/USERNAME/GITHUB_PROJECT_NAME.git"
+    "url": "git+https://github.com/robertjajajja/homebridge-plugin-amber-electricity-price"
   },
   "bugs": {
-    "url": "https://github.com/USERNAME/GITHUB_PROJECT_NAME/issues"
+    "url": "https://github.com/robertjajajja/homebridge-plugin-amber-electricity-price/issues"
   },
   "engines": {
     "node": "^18.17.0 || ^20.9.0",
@@ -25,7 +24,11 @@
     "prepublishOnly": "npm run lint && npm run build"
   },
   "keywords": [
-    "homebridge-plugin"
+    "homebridge-plugin",
+    "Electricity",
+    "Amber",
+    "Price",
+    "Australia"
   ],
   "devDependencies": {
     "@types/node": "^20.12.13",
@@ -36,6 +39,7 @@
     "nodemon": "^3.1.2",
     "rimraf": "^5.0.7",
     "ts-node": "^10.9.2",
-    "typescript": "^5.4.5"
+    "typescript": "^5.4.5",
+    "prettier": "^3.3.1"
   }
 }

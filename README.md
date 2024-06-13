@@ -6,7 +6,7 @@
 
 <span align="center">
 
-# Homebridge Platform Plugin Template
+# Homebridge Platform Amber Electricity Plugin
 
 </span>
 
